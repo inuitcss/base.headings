@@ -7,37 +7,37 @@
  * stranded heading hierarchy: csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css
  */
 h1,
-.#{$namespace}alpha,
-%#{$namespace}alpha {
-    @include font-size($heading-size-1);
+.#{$inuit-namespace}alpha,
+%#{$inuit-namespace}alpha {
+    @include font-size($inuit-heading-size-1);
 }
 
 h2,
-.#{$namespace}beta,
-%#{$namespace}beta {
-    @include font-size($heading-size-2);
+.#{$inuit-namespace}beta,
+%#{$inuit-namespace}beta {
+    @include font-size($inuit-heading-size-2);
 }
 
 h3,
-.#{$namespace}gamma,
-%#{$namespace}gamma {
-    @include font-size($heading-size-3);
+.#{$inuit-namespace}gamma,
+%#{$inuit-namespace}gamma {
+    @include font-size($inuit-heading-size-3);
 }
 
 h4,
-.#{$namespace}delta,
-%#{$namespace}delta {
-    @include font-size($heading-size-4);
+.#{$inuit-namespace}delta,
+%#{$inuit-namespace}delta {
+    @include font-size($inuit-heading-size-4);
 }
 
 h5,
-.#{$namespace}epsilon,
-%#{$namespace}epsilon {
-    @include font-size($heading-size-5);
+.#{$inuit-namespace}epsilon,
+%#{$inuit-namespace}epsilon {
+    @include font-size($inuit-heading-size-5);
 }
 
 h6,
-.#{$namespace}zeta,
-%#{$namespace}zeta {
-    @include font-size($heading-size-6);
+.#{$inuit-namespace}zeta,
+%#{$inuit-namespace}zeta {
+    @include font-size($inuit-heading-size-6);
 }
