@@ -3,8 +3,7 @@
 \*------------------------------------*/
 
 /**
- * Headings 1–6, with corresponding Greek-alphabet abstract classes for double-
- * stranded heading hierarchy: csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css
+ * Headings 1–6.
  */
 
 // Predefine the variables below in order to alter and enable specific features.
@@ -15,38 +14,26 @@ $inuit-heading-size-4:  20px !default;
 $inuit-heading-size-5:  16px !default;
 $inuit-heading-size-6:  14px !default;
 
-h1,
-.#{$inuit-namespace}alpha,
-%#{$inuit-namespace}alpha {
+h1 {
     @include inuit-font-size($inuit-heading-size-1);
 }
 
-h2,
-.#{$inuit-namespace}beta,
-%#{$inuit-namespace}beta {
+h2 {
     @include inuit-font-size($inuit-heading-size-2);
 }
 
-h3,
-.#{$inuit-namespace}gamma,
-%#{$inuit-namespace}gamma {
+h3 {
     @include inuit-font-size($inuit-heading-size-3);
 }
 
-h4,
-.#{$inuit-namespace}delta,
-%#{$inuit-namespace}delta {
+h4 {
     @include inuit-font-size($inuit-heading-size-4);
 }
 
-h5,
-.#{$inuit-namespace}epsilon,
-%#{$inuit-namespace}epsilon {
+h5 {
     @include inuit-font-size($inuit-heading-size-5);
 }
 
-h6,
-.#{$inuit-namespace}zeta,
-%#{$inuit-namespace}zeta {
+h6 {
     @include inuit-font-size($inuit-heading-size-6);
 }

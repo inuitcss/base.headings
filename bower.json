@@ -1,6 +1,6 @@
 {
   "name": "inuit-headings",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "homepage": "https://github.com/inuitcss/base.headings",
   "authors": [
     "Harry Roberts <harry@csswizardry.com>"
@@ -8,6 +8,8 @@
   "description": "Base heading rules for the inuitcss framework",
   "main": "_base.headings.scss",
   "keywords": [
+    "typography",
+    "type",
     "inuitcss",
     "oocss",
     "css"
