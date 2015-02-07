@@ -1,6 +1,6 @@
 {
   "name": "inuit-headings",
-  "version": "0.2.2",
+  "version": "0.3.1",
   "description": "Base heading rules for the inuitcss framework",
   "main": "_base.headings.scss",
   "repository": {
